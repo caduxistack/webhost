@@ -1,0 +1,395 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 80px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-101 {
+    width: 100%;
+    height: 550px;
+    float: left;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+.redes-sociais {
+	float: right;
+	padding-top: 10px;
+}
+.redes-sociais ul li {
+    display: inline-block;
+	padding-left: 15px;
+}
+
+.header-2 {
+    background-color: #fff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 40px;
+}
+
+.menu ul li:hover {
+    border-bottom: 4px solid #31b2e6;
+}
+
+.menu ul li a:hover {
+    height: 50px;
+    color: #1279bf;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding-left: 20px;
+    height: 38px;
+    width: 200px;
+    margin-top: 5px;
+    float: right;
+    border: 1px solid #8b8b8b;
+    border-radius: 20px;
+    color: #8b8b8b;
+}
+
+button.slick-prev {
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 12%;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(prv.png)
+}
+
+button.slick-next {
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    right: 12%;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(nex.png)
+}
+
+.slick-dots {
+    position: absolute;
+    margin: 0 auto;
+    left: 45%;
+    bottom: 5%;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid #fff;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li.slick-active button {
+    background-color: #31b2e6;
+}
+
+.texto-destaque {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #7b7b7b;
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    color: #818181;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.texto-destaque h3 {
+    color: #818181;
+    font-weight: normal;
+}
+
+.texto-destaque strong {
+    color: #646464;
+    font-weight: 900;
+}
+
+.col-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.col-3 {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 40px;
+}
+
+.content {
+    float: left;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.col-4 {
+    width: 300px;
+    float: left;
+    position: relative;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.imagem {
+    height: 310px;
+    width: 300px;
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+}
+
+.texto {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    color: #7b7b7b;
+    width: 290px;
+    margin: 10px;
+}
+
+.texto b,
+p {
+    text-align: left;
+}
+
+.bloco-imagens-texto {
+    background-color: #eee;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 50px;
+    background: #fff;
+    background-image: url('../img/seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eee;
+}
+
+.col-5 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-5 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-5 img:hover {
+    margin-top: 10px !important;
+    position: relative !important;
+}
+
+.col-6 {
+    float: left;
+    width: 225px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bloco-logos {
+    height: 174px;
+}
+
+.bloco-logos img {
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: #4c4b4c;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.footer h3 {
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+}
+
+.footer p {
+    width: 100%;
+    text-align: left;
+}
+.footer a {
+	color: #fff;
+	text-decoration: none;
+}
+.clock {
+    color: #898989 !important;
+}
+
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before,
+.emailico:before,
+.telefoneico:before {
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+	vertical-align: text-top;
+}
+
+.local:before {
+    background-image: url('local.png');
+}
+
+.emailico:before {
+    background-image: url('email.png');
+}
+
+.telefoneico:before {
+    background-image: url('telefone-ico.png');
+}
+
+.footer-2 {
+    background-color: #252323;
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.logo-footer {
+    float: left;
+    padding: 15px;
+    width: 6%;
+}
+
+.texto-footer {
+    float: left;
+    width: 72%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+
+.texto-footer p {
+    padding-top: 15px;
+	padding-left: 10px;
+}
+
+.texto-footer a {
+    color: #00bac6;
+    text-decoration: none;
+}
